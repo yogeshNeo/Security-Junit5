@@ -3,6 +3,10 @@ spring:
     activate:
       on-profile: dev
 
+  devtools:
+    livereload:
+      enabled: true
+
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/security?createDatabaseIfNotExist=true
@@ -19,3 +23,10 @@ server:
   port: 8080
   servlet:
     context-path: /
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger.html
+    operationsSorter: method
