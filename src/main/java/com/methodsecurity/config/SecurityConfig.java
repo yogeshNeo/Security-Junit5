@@ -1,6 +1,6 @@
-package com.methodSecurity.config;
+package com.methodsecurity.config;
 
-import com.methodSecurity.filter.JwtAuthFilter;
+import com.methodsecurity.filter.JwtAuthFilter;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,7 +1,7 @@
-package com.methodSecurity.controller;
+package com.methodsecurity.controller;
 
-import com.methodSecurity.entity.Product;
-import com.methodSecurity.repository.ProductRepository;
+import com.methodsecurity.entity.Product;
+import com.methodsecurity.repository.ProductRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

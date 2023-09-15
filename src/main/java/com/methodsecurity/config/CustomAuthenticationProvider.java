@@ -1,7 +1,7 @@
-package com.methodSecurity.config;
+package com.methodsecurity.config;
 
-import com.methodSecurity.entity.UserInfo;
-import com.methodSecurity.repository.UserInfoRepository;
+import com.methodsecurity.entity.UserInfo;
+import com.methodsecurity.repository.UserInfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;

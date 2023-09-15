@@ -1,9 +1,9 @@
-package com.methodSecurity;
+package com.methodsecurity;
 
-import com.methodSecurity.config.UserInfoUserDetailsService;
-import com.methodSecurity.controller.ProductController;
-import com.methodSecurity.repository.ProductRepository;
-import com.methodSecurity.service.JwtService;
+import com.methodsecurity.config.UserInfoUserDetailsService;
+import com.methodsecurity.controller.ProductController;
+import com.methodsecurity.repository.ProductRepository;
+import com.methodsecurity.service.JwtService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

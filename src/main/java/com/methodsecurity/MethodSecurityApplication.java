@@ -1,4 +1,4 @@
-package com.methodSecurity;
+package com.methodsecurity;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;

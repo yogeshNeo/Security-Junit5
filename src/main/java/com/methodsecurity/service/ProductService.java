@@ -1,6 +1,6 @@
-package com.methodSecurity.service;
+package com.methodsecurity.service;
 
-import com.methodSecurity.entity.Product;
+import com.methodsecurity.entity.Product;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 

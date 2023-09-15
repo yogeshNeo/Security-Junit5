@@ -1,4 +1,4 @@
-package com.methodSecurity.entity;
+package com.methodsecurity.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

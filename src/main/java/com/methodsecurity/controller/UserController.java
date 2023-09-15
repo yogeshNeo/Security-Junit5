@@ -1,10 +1,10 @@
-package com.methodSecurity.controller;
+package com.methodsecurity.controller;
 
-import com.methodSecurity.config.CustomAuthenticationProvider;
-import com.methodSecurity.dto.AuthRequest;
-import com.methodSecurity.entity.UserInfo;
-import com.methodSecurity.service.JwtService;
-import com.methodSecurity.service.UserService;
+import com.methodsecurity.config.CustomAuthenticationProvider;
+import com.methodsecurity.dto.AuthRequest;
+import com.methodsecurity.entity.UserInfo;
+import com.methodsecurity.service.JwtService;
+import com.methodsecurity.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

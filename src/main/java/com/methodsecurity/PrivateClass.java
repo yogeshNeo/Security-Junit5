@@ -1,4 +1,4 @@
-package com.methodSecurity;
+package com.methodsecurity;
 
 public class PrivateClass {
     public static void main(String[] args) {

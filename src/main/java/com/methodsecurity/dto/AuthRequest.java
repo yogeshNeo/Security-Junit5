@@ -1,4 +1,4 @@
-package com.methodSecurity.dto;
+package com.methodsecurity.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

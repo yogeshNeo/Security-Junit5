@@ -1,6 +1,6 @@
-package com.methodSecurity.repository;
+package com.methodsecurity.repository;
 
-import com.methodSecurity.entity.Product;
+import com.methodsecurity.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Integer> {

@@ -1,6 +1,6 @@
-package com.methodSecurity.config;
+package com.methodsecurity.config;
 
-import com.methodSecurity.entity.UserInfo;
+import com.methodsecurity.entity.UserInfo;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

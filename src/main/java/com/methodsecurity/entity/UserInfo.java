@@ -1,6 +1,6 @@
-package com.methodSecurity.entity;
+package com.methodsecurity.entity;
 
-import com.methodSecurity.dto.Role;
+import com.methodsecurity.dto.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

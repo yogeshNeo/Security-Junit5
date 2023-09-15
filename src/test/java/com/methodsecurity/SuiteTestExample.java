@@ -1,4 +1,4 @@
-package com.methodSecurity;
+package com.methodsecurity;
 
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.platform.suite.api.Suite;

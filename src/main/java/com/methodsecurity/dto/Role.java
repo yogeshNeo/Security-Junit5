@@ -1,4 +1,4 @@
-package com.methodSecurity.dto;
+package com.methodsecurity.dto;
 
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

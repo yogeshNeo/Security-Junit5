@@ -1,4 +1,4 @@
-package com.methodSecurity;
+package com.methodsecurity;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.*;

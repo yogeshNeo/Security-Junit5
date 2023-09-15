@@ -1,6 +1,6 @@
-package com.methodSecurity.repository;
+package com.methodsecurity.repository;
 
-import com.methodSecurity.entity.UserInfo;
+import com.methodsecurity.entity.UserInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

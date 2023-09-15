@@ -1,7 +1,7 @@
-package com.methodSecurity.filter;
+package com.methodsecurity.filter;
 
-import com.methodSecurity.config.UserInfoUserDetailsService;
-import com.methodSecurity.service.JwtService;
+import com.methodsecurity.config.UserInfoUserDetailsService;
+import com.methodsecurity.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
