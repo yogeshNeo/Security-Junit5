@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Random;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 @Service
@@ -16,13 +15,14 @@ public class ProductService {
 
     @PostConstruct
     public void loadProductsFromDB() {
+        Random random = new Random();
         productList = IntStream.rangeClosed(1, 100)
                 .mapToObj(i -> Product.builder()
                         .productId(i)
                         .name("product " + i)
-                        .qty(new Random().nextInt(10))
-                        .price(new Random().nextInt(5000)).build()
-                ).collect(Collectors.toList());
+                        .qty(random.nextInt(10))
+                        .price(random.nextInt(5000)).build()
+                ).toList();
     }
 
     public List<Product> getProducts() {
