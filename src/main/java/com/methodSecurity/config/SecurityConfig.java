@@ -42,7 +42,7 @@ public class SecurityConfig {
                 .addFilterBefore(authFilter, UsernamePasswordAuthenticationFilter.class)
                 .authorizeHttpRequests(authorizeRequests -> authorizeRequests
                         .requestMatchers("/user/**", "/api/test/**").permitAll()
-                        .anyRequest().authenticated())
+                        .anyRequest().permitAll())
                 .build();
     }
 
