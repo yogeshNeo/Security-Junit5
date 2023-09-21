@@ -1,0 +1,20 @@
+{ "databaseChangeLog": [
+  {
+    "changeSet": {
+      "id": "add-last-name-constraint",
+      "author": "liquibase-demo-service",
+      "changes": [
+        {
+          "addNotNullConstraint": {
+            "columnDataType": "varchar",
+            "columnName": "last_name",
+            "constraintName": "user_last_name_key",
+            "defaultNullValue":"NA",
+            "schemaName":"security",
+            "tableName": "user_details",
+            "validate":false
+          }
+        }]
+    }
+  }
+]}
